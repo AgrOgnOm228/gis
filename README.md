@@ -4,4 +4,4 @@
 
 в папке проекта:
 
-npm run deploy
+npm run dev
