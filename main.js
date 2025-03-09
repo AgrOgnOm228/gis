@@ -19,7 +19,7 @@ function createMarkerElement(radius) {
 }
 
 async function fetchCities() {
-    const apiKey = 'agrognom228'; // Замените на ваш API ключ
+    const apiKey = 'agrognom228'; 
     const url = `http://api.geonames.org/searchJSON?formatted=true&q=europe&cities=cities1000&username=${apiKey}&maxRows=10`;
 
     try {
